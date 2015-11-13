@@ -1,0 +1,37 @@
+{
+  "TSP_REST_METRIC_PERCENT": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 30000,
+    "description": "Example metrics that shows a percentage value",
+    "displayName": "Lua REST Percent",
+    "displayNameShort": "Lua REST %",
+    "unit": "percent"
+  },
+  "TSP_REST_METRIC_NUMBER": {
+    "defaultAggregate": "max",
+    "defaultResolutionMS": 30000,
+    "description": "Example metrics that shows a number value",
+    "displayName": "Lua REST Number",
+    "displayNameShort": "Lua REST Num",
+    "unit": "number"
+
+  },
+  "TSP_REST_METRIC_BYTES": {
+    "defaultAggregate": "sum",
+    "defaultResolutionMS": 30000,
+    "description": "Example metrics that shows a bytes value",
+    "displayName": "Lua REST Bytes",
+    "displayNameShort": "Lua REST B",
+    "unit": "bytes"
+
+  },
+
+  "TSP_REST_METRIC_DURATION": {
+    "defaultAggregate": "min",
+    "defaultResolutionMS": 30000,
+    "description": "Example metrics that shows a duration value",
+    "displayName": "Lua REST Number",
+    "displayNameShort": "Lua REST Dur",
+    "unit": "duration"
+  }
+}
