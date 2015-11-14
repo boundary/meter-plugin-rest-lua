@@ -1,0 +1,30 @@
+{
+  "name": "Lua Framework REST Example",
+  "version": "1.0.0",
+  "meterVersionRequired": "4.2.0-611",
+  "unsupportedPlatforms": [],
+  "tags": "activemq",
+  "description": "Example plugin that use REST calls to collect measurements",
+  "icon": "icon.png",
+  "command": "boundary-meter init.lua",
+  "metrics": [
+  ],
+  "postExtract": "",
+  "dashboard": [
+    "TSP_REST_METRIC_BYTECOUNT",
+    "TSP_REST_METRIC_DURATION",
+    "TSP_REST_METRIC_NUMBER",
+    "TSP_REST_METRIC_PERCENT"
+  ],
+  "paramSchema": [
+    {
+      "title": "Source",
+      "name": "source",
+      "description": "Source to use when reporting measurements",
+      "type": "string",
+      "default": "",
+      "required": true
+    }
+  ]
+}
+
