@@ -1,6 +1,6 @@
 {
   "name": "Lua Framework REST Example",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "meterVersionRequired": "4.2.0-611",
   "unsupportedPlatforms": [],
   "tags": "activemq",
